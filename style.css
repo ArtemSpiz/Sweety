@@ -61,5 +61,56 @@ body {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: 700px
+    font-weight: 700px;
+}
+
+
+
+
+.main-page {
+    background-image: url(bg%201.png);
+    height: 615px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-ph {
+     text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -125px;
+}
+
+.main-elipse {
+    justify-content: center;
+    margin-top: -30px;
+    display: flex;
+    height: 11Spx;
+}
+
+.elipse {
+    margin-right: 15px;
+}
+
+.main-elipse:after {
+    position: absolute;
+    content: '';
+    height: 0.9px;
+    width: 62px;
+    background-color: #FFFFFF73;
+    margin-left: 145px;
+    margin-top: 4px;
+}
+
+.main-elipse:before {
+    position: absolute;
+    content: '';
+    height: 0.9px;
+    width: 62px;
+    background-color: #FFFFFF73;
+    margin-right: 175px;
+    margin-top: 4px;
 }
