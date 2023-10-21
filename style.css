@@ -1,9 +1,13 @@
 body {
     margin: 0;
+    background-color: #F6F3F1;
+
 }
 
+
+
 .container {
-    margin: 0px 180px;
+    margin: 0px 360px;
 }
 
 .Title {
@@ -37,6 +41,7 @@ body {
 }
 
 .nav {
+
     justify-content: center;
     margin-left: 97px;
     margin-top: 33px;
@@ -113,4 +118,78 @@ body {
     background-color: #FFFFFF73;
     margin-right: 175px;
     margin-top: 4px;
+}
+
+.main-text {
+  padding-top: 100px;
+font-family: Comfortaa;
+font-size: 48px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.line {
+  padding-left: 130px;
+  padding-bottom: 60px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+
+}
+.foto {
+  margin-right: 60px;
+
+}
+.foto3 {
+  margin-left: 60px;
+}
+
+.vid {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+
+.slogo {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.foto-mone {
+  margin-right: 100px;
+}
+
+.main1 {
+  padding-bottom: 30px;
+}
+
+.text1 {
+font-family: Nexa;
+font-size: 18px;
+font-weight: 300;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 20px;
+
+}
+
+.b {
+font-family: Nexa;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+background-color: #744F41;
+padding: 10px 53px;
+border-radius: 6px;
+border-color:  #744F41;
 }
