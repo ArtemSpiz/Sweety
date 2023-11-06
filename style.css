@@ -334,7 +334,7 @@ border-color:  #744F41;
 
 .logo2 {
     display: flex;
-    margin-top: 59px; 
+    margin-top: 59px;
     align-items: center;
 }
 
@@ -401,166 +401,166 @@ border-color:  #744F41;
 
 
 @media ( max-width: 1290px ){
-    
+
     .text-logo{
         display: none;
     }
-    
+
     .blog{
         height: 600px;
     }
-    
+
     .blog-below{
         display: block;
         text-align: center;
     }
-    
+
     .blog-top {
         display: block;
         text-align: center;
         padding-right: 0px;
     }
-    
+
     .logo-below{
         display: block;
         margin-top: -215px;
         position: absolute;
     }
-    
+
     .logo2{
         display: flex;
         justify-content: center;
         margin-top: 59px;
         align-items: baseline;
     }
-    
+
     .btn-bl{
         margin-left: 125px;
     }
-    
+
     .email-bg{
         margin-top: 137px;
     }
-    
+
     .text-blog{
         margin-left: -257px;
     }
-    
+
     .inst-email{
         padding-left: 0px;
         padding-right: 0px;
         position: absolute;
     }
-    
+
     .email-icon{
         display: flex;
         align-items: center;
         margin-top: 120px;
         position: absolute;
     }
-    
+
     .call{
         margin-top: 120px;
         padding-left: 12px;
     }
-    
+
     .event-below{
         padding-left: 12px;
         margin-top: 43px;
     }
-    
-    
+
+
     .text1-below{
         position: absolute;
         margin-top: 275px;
         padding-left: 12px;
     }
-    
+
     .btn:after{
         bottom: -2410px;
         width: 900px;
     }
-    
-    
+
+
     .main-elipse:after,
     .main-elipse:before{
         display: none;
     }
-    
-    
-    
+
+
+
     .text-Title{
         display: none;
     }
-    
+
 }
 
 
 @media ( max-width: 1150px ){
-    
+
     .nav{
         display: none;
     }
-    
+
     .bag{
         justify-content: center;
     }
-    
+
     .frame{
         display:block;
         margin-top: 15px;
     }
-    
+
     .Header-title {
         justify-content: space-between;
     }
-    
+
     .container{
         margin: 0px 15px;
     }
-    
-  
-    
+
+
+
     .btn:after{
         width: 1081px;
         left: 15px;
     }
-    
+
 }
-    
+
 
 @media ( max-width: 1130px ){
-    
+
     .btn:after{
         width: 870px;
     }
-    
+
 }
 
 
 
 @media ( max-width: 1015px ){
-    
+
     .btn:after {
         width: 800px;
     }
 }
-    
+
 
 @media(max-width: 870px ){
     .btn:after {
         width: 760px;
     }
-    
+
     .text-blog{
         width: 440px;
         margin-left: -220px;
     }
-    
+
     .email-bg{
         width: 440px;
     }
-        
+
     .blog-top{
         margin-right: 130px;
     }
@@ -578,23 +578,23 @@ border-color:  #744F41;
     .blog-top{
         text-align: start;
     }
-        
+
     .btn:after {
         width: 555px;
     }
-    
+
     .text-blog {
         margin-left: 0px;}
-    
+
     .btn-bl {
       margin-left: 360px;
     }
-    
+
     .bg1{
         width: 530px;
         height: 615px;
     }
-    
+
     .ty {
         margin-top: 115px;
         height: 500px;
@@ -605,15 +605,15 @@ border-color:  #744F41;
     .text-blog{
         width: 340px;
     }
-    
+
     .btn-bl {
         margin-left: 265px;
     }
-    
+
     .email-bg {
         width: 340px;
     }
-    
+
     .btn:after {
         width: 455px;
     }
@@ -639,6 +639,61 @@ border-color:  #744F41;
     .bg1{
         width: 400px;
     }
-    
+
 }
 
+@media(max-width: 1250px) {
+  .fotos {
+    flex-direction: column;
+    text-align: center;
+  }
+  .foto3 {
+    margin-left: 0px;
+  }
+  .foto {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .foto2 {
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 1150px){
+  .main-text {
+    margin-left: 50px;
+  }
+
+}
+
+@media(max-width: 1450px){
+  .lox {
+    width: 1000px;
+  }
+}
+
+@media(max-width: 830px){
+.lox {
+  width: 800px;
+}
+}
+
+@media(max-width: 630px){
+  .lox {
+        width: 600px;
+  }
+
+}
+
+@media(max-width: 1090px){
+  .slogo{
+    flex-direction: column;
+    height: 1200px;
+    text-align: center;
+   }
+  }
+@media(max-width: 1090px){
+  .text1 {
+    text-align: center;
+  }
+}
