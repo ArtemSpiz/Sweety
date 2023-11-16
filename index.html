@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 
 
@@ -33,7 +36,7 @@
         <a class="nav-item" href="#charity">#Благодійність</a>
         <a class="nav-item"href="#blog">#ХелсіБлог</a>
     </div>
-
+        
         <div class="bag">
         <div class="img-bag">
             <img class="bag-img" src="shopping-bag.png">
@@ -44,10 +47,21 @@
         </div>
 
         <div class="header-frame">
-        <img class="frame" src="Frame.png">
+            
+            <button id='burger'>
+                <img id='close' class="frame1 disp1" alt="" src="close.png">
+                <img id="frame" class="frame" alt="" src="Frame.png">
+                </button>
+            
+             <div id='menu' class="slider disp">
+             <a class="nav-item1 fi" href="#Sweet">#Продукти</a>
+             <a class="nav-item1" href="#video">#ХтоМИ</a>
+             <a class="nav-item1" href="#charity">#Благодійність</a>
+             <a class="nav-item1 last" href="#blog">#ХелсіБлог</a>
+        </div>
         </div>
     </div>
-        </div>
+        </div> 
         </div>
 
 
@@ -55,14 +69,16 @@
     <div class="main-page">
         <div class="container">
         <div class="bg-elem">
+            
+            
     <div class="bg-ph">
-        <img class="bg1" src="bg.ph1.png">
+        <img class="bg1 first" src="bg.ph1.png">
         <img class="bg1" src="bg-sl2.png">
         <img class="bg1" src="bg-sl3.png">
         <img class="bg1 ty" src="bg-sl4.png">
         </div>
 
-    <div class="btn1">
+    <div class="btn1"> 
 
           <div class="left-btn">
             <img class="left controlls" src="left.png">
@@ -80,20 +96,18 @@
     </div>
 
     <div class="main-elipse1">
-
             <div class="main-elipse">
-            <img class="elipse before" src="Ellipse.png">
-            <img class="elipse" src="Ellipse.png">
-            <img class="elipse" src="Ellipse.png">
+            <input type="radio" name="slider" class="elipse before" id="slide" checked>
+            <input type="radio" name="slider" class="elipse" id="slide1" >
+            <input type="radio" name="slider" class="elipse" id="slide2" >
             </div>
 
     </div>
+    
 
 
 
-
-
-   <div id="Sweet" class="sweet">
+   <div id="Sweet"   class="sweet">
      <div class="container">
     <div class="main">
       <div class="main-text">
@@ -156,8 +170,8 @@
                 <form>
             <input class="text-blog" type=email placeholder='Залиш свою пошту, щоб підписатись на новини'>
             <div class="btn-blog">
-            <div class="btn">
-            <button class="btn-bl" type="submit" href='' >Підписатись</button>
+            <div class="btn3">
+            <button class="btn-bl" type="submit" alt='' >Підписатись</button>
                 </div>
             </div>
                     </form>
@@ -189,7 +203,7 @@
             </div>
 
             <div class="text">
-                <div class="text1-below">Політика конфіденційності <v>|</v> Публічна оферта</div>
+                <div class="text1-below"><h class="g">Політика конфіденційності</h> <v class="a">|</v><m class='second'>Публічна оферта</m></div>
             </div>
 
             <div class="call">
